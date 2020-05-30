@@ -89,8 +89,6 @@ class BoardForm extends React.Component {
           { isEditing 
             ? <button className="btn btn-dark" onClick={this.updateBoard}>Update Board</button>
           : <button className="btn btn-dark" onClick={this.saveBoard}>Save Board</button>}
-          
-          <button className="btn btn-dark" onClick={this.saveBoard}>Save Board</button>
         </form>
       </div>
     );
